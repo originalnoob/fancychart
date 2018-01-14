@@ -26,7 +26,7 @@
  .department {
      font-weight: bold;
      margin-bottom: 5px;
-     border: 2px solid #7C7C7C;
+     border: 3px solid #EEEEEE;
      padding: 10px 10px;
      text-decoration: none;
      color: black;
@@ -42,11 +42,10 @@
  .department li a {
      color: black;
      text-decoration: none;
-     border: 3px solid #7C7C7C;
+     border: 3px solid blue;
      padding: 2px 2px;
      text-decoration: none;
      color: black;
-     background-color: #90AECE;
      font-family: arial, verdana, tahoma;
      font-size: 11px;
      display: inline-block;
@@ -73,14 +72,14 @@
      position: absolute;
      top: 0;
      right: 50%;
-     border-top: 3px solid #7C7C7C;
+     border-top: 3px solid #EEEEEE;
      width: 50%;
      height: 20px;
 }
  .ogchart li::after{
      right: auto;
      left: 50%;
-     border-left: 3px solid #7C7C7C;
+     border-left: 3px solid #EEEEEE;
 }
  .ogchart li:only-child::after, .ogchart li:only-child::before {
      display: none;
@@ -92,14 +91,14 @@
      border: 0 none;
 }
  .ogchart li:last-child::before{
-     border-right: 3px solid #7C7C7C;
+     border-right: 3px solid #EEEEEE;
 }
  .ogchart ul ul::before{
      content: '';
      position: absolute;
      top: 0;
      left: 50%;
-     border-left: 3px solid #7C7C7C;
+     border-left: 3px solid #EEEEEE;
      width: 0;
      height: 20px;
 }

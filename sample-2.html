@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sample 2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="charts.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+	</head>
+<nav class="navbar navbar-default fixed-top">
+  <div class="container-fluid"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Fancy Oranization Chart</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Sample 1</a></li>
+        <li><a href="sample-2.html">Sample 2</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<body class="text-center 2ndbg">
+		<div class="container center-block containeradjust">
+			<div class="ogchart">
+				<!-- lets start by making a parent. It could be a person or a department -->
+				<ul>
+					<li><a><img src="https://randomuser.me/api/portraits/men/83.jpg" width="50px" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE A</strong></p><p class="ogtitle">DIRECTOR</p>
+						
+					</a>
+					<!-- To create person / department below the director that we just created, you must add a new <ul> tag child after the end of <a> tag.-->
+						<ul>
+							<li><a href="#"><img src="https://randomuser.me/api/portraits/men/80.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname""><strong>JOHN DOE E</strong></p><p class="ogtitle">CHIEF EXECUTIVE OFFICER</p></a>
+							<!-- Create child for CEO -->
+								<ul>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/70.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE I</strong></p><p class="ogtitle">SALES & MARKETING MANAGER</p></a>
+										</li>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/50.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE S</strong></p><p class="ogtitle">ACCOUNTANT MANAGER</p></a>
+										</li>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/30.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE T</strong></p><p class="ogtitle">GENERAL MANAGER</p></a>
+										</li>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/29.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE U</strong></p><p class="ogtitle">BUSINESS DEVELOPMENT MANAGER</p></a>
+										</li>
+								</ul>
+							</li>
+							
+							<li><a href="#"><img src="https://randomuser.me/api/portraits/men/78.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE H</strong></p><p class="ogtitle">CHIEF TECHNICAL OFFICER</p></a>
+								<!-- Lets create the technical team -->
+									<ul>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/20.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE K</strong></p><p class="ogtitle">SENIOR FRONT END DEVELOPER</p></a>
+										<!-- Lets create a junior for our guy here. After the end of <a> tag create a new parenting <ul> tag-->
+											<ul>
+												<li><a href="#"><img src="https://randomuser.me/api/portraits/men/10.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE X</strong></p><p class="ogtitle">JUNIOR FRONT END DEVELOPER</p></a></li>
+											</ul>
+										</li>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/51.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE L</strong></p><p class="ogtitle">SENIOR BANK END DEVELOPER</p></a>
+										</li>
+										<li><a href="#"><img src="https://randomuser.me/api/portraits/men/31.jpg" width="50px" class="img-circle img-responsive  circleborder center-block"><p class="ogname"><strong>JOHN DOE M</strong></p><p class="ogtitle">GENERAL MANAGER</p></a>
+										</li>
+									</ul>
+							</li>
+						</ul>
+				
+				
+					</li>	
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

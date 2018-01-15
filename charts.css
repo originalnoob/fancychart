@@ -2,6 +2,12 @@
      margin: 0;
      padding: 0;
 }
+.containeradjust {
+	padding-top : 70px;
+}
+.2ndbg {
+	background-color: blue;
+}
  body{
 }
  p{
